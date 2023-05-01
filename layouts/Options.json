@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "Options",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 2,
+					"uid": 14,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -44,7 +44,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 15,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -73,7 +73,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 4,
+					"uid": 16,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -102,7 +102,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 17,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -131,7 +131,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 6,
+					"uid": 18,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -160,7 +160,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 8,
+					"uid": 19,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -189,7 +189,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 7,
+					"uid": 20,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -210,112 +210,19 @@
 					}
 				},
 				{
-					"type": "start",
-					"properties": {
-						"type": "button",
-						"text": "",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 9,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 819,
-						"y": 494,
-						"width": 204,
-						"height": 84,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "OPTIONS",
-					"properties": {
-						"type": "button",
-						"text": "",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 10,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 817,
-						"y": 620,
-						"width": 203,
-						"height": 82,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "QUIT",
-					"properties": {
-						"type": "button",
-						"text": "",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 820,
-						"y": 740,
-						"width": 203,
-						"height": 81,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
 					"type": "credits",
 					"properties": {
 						"type": "button",
-						"text": "",
+						"text": "Credits",
 						"tooltip": "",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
+						"enabled": false,
+						"auto-font-size": false,
 						"checked": false,
 						"id": "",
 						"class": ""
 					},
-					"uid": 12,
+					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -356,7 +263,7 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 13,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -375,9 +282,174 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Sprite10",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 890,
+						"y": 560.5,
+						"width": 369,
+						"height": 665,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sound",
+					"properties": {
+						"type": "checkbox",
+						"text": "Sound",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 759,
+						"y": 417,
+						"width": 311,
+						"height": 109,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "OPTIONS",
+					"properties": {
+						"type": "checkbox",
+						"text": "Music",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 761,
+						"y": 539,
+						"width": 315,
+						"height": 110,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "OptionsBack",
+					"properties": {
+						"type": "button",
+						"text": "Back",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 790,
+						"y": 797,
+						"width": 203,
+						"height": 81,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Text4",
+					"properties": {
+						"text": "Options",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0,
+							0.25098039215686274,
+							1,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 790,
+						"y": 250,
+						"width": 205,
+						"height": 47,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 147043625286537,
+			"sid": 178087807622872,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -406,7 +478,7 @@
 			"global": false
 		}
 	],
-	"sid": 901824450594981,
+	"sid": 914707681980495,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -415,5 +487,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Home"
 }

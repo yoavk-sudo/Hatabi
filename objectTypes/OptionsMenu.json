@@ -1,7 +1,7 @@
 {
-	"name": "QUIT",
+	"name": "OptionsMenu",
 	"plugin-id": "Button",
-	"sid": 775536076320739,
+	"sid": 666758161476506,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": []
