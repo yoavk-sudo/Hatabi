@@ -332,49 +332,6 @@
 							1
 						]
 					}
-				},
-				{
-					"type": "Text",
-					"properties": {
-						"text": "Game Name",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 70,
-						"line-height": 0,
-						"bold": true,
-						"italic": true,
-						"color": [
-							0,
-							0.25098039215686274,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 13,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 613,
-						"y": 66,
-						"width": 632,
-						"height": 103,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 147043625286537,

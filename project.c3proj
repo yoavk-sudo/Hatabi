@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 32703,
+	"savedWithRelease": 33600,
 	"name": "exterminator",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -51,20 +51,28 @@
 			"OptionsBack",
 			"credits",
 			"Sprite9",
-			"Text",
-			"Text2",
 			"Sprite10",
-			"Text3",
 			"OptionsMenu",
-			"Text4",
 			"Sprite11",
 			"TiledBackground",
-			"Text5",
 			"Text6",
 			"Sprite12",
 			"Sprite13",
 			"PauseButton",
-			"Text7"
+			"Text7",
+			"Sprite14",
+			"Sprite15",
+			"Sprite16",
+			"Sprite17",
+			"Sprite18",
+			"Sprite19",
+			"Sprite20",
+			"Sprite21",
+			"Sprite22",
+			"Sprite23",
+			"Sprite24",
+			"Sprite25",
+			"Sprite26"
 		],
 		"subfolders": []
 	},
@@ -79,7 +87,6 @@
 			"Home",
 			"Credits",
 			"Game",
-			"GameMenu",
 			"Options",
 			"GameOver"
 		],
@@ -91,7 +98,6 @@
 			"Options",
 			"Credits",
 			"Game",
-			"GameMenu",
 			"GameOver"
 		],
 		"subfolders": []

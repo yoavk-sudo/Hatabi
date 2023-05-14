@@ -241,49 +241,6 @@
 					}
 				},
 				{
-					"type": "Text",
-					"properties": {
-						"text": "Game Name",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 70,
-						"line-height": 0,
-						"bold": true,
-						"italic": true,
-						"color": [
-							0,
-							0.25098039215686274,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 25,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 613,
-						"y": 66,
-						"width": 632,
-						"height": 103,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite10",
 					"properties": {
 						"initially-visible": true,
@@ -403,49 +360,6 @@
 							1,
 							1
 						]
-					}
-				},
-				{
-					"type": "Text4",
-					"properties": {
-						"text": "Options",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 30,
-						"line-height": 0,
-						"bold": true,
-						"italic": false,
-						"color": [
-							0,
-							0.25098039215686274,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 27,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 790,
-						"y": 250,
-						"width": 205,
-						"height": 47,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
 					}
 				}
 			],
