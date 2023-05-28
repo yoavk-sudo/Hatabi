@@ -1,14 +1,14 @@
 {
-	"name": "Sprite6",
+	"name": "solidSprite27",
 	"plugin-id": "Sprite",
-	"sid": 955576732215386,
+	"sid": 246339423362016,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Pathfinding",
-			"name": "Pathfinding",
-			"sid": 511924553842101
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 370320860472431
 		}
 	],
 	"effectTypes": [],
@@ -17,31 +17,31 @@
 			{
 				"frames": [
 					{
-						"width": 1831,
-						"height": 1368,
+						"width": 32,
+						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1403547,
+						"imageSpriteId": 4310473,
 						"collisionPoly": {
 							"points": [
-								0.3058438012015292,
-								0.4093567251461988,
+								0,
+								0,
 								0.5,
-								0.16301169590643275,
-								0.6663025669033316,
-								0.4466374269005848,
-								0.7056253413435282,
+								0,
+								1,
+								0,
+								1,
 								0.5,
-								0.758601856908793,
-								0.6769005847953217,
+								1,
+								1,
 								0.5,
-								0.875,
-								0.2534134352812671,
-								0.6608187134502924,
-								0.2528672856362643,
+								1,
+								0,
+								1,
+								0,
 								0.5
 							]
 						},
@@ -49,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 946394776483262,
+				"sid": 137001709741991,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

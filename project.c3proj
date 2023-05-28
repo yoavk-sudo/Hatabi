@@ -33,6 +33,27 @@
 			"name": "Tiled Background",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "9ry9g1ir88f",
@@ -61,7 +82,7 @@
 			"PauseButton",
 			"Text7",
 			"Sprite14",
-			"Sprite15",
+			"solidSprite15",
 			"Sprite16",
 			"Sprite17",
 			"Sprite18",
@@ -72,7 +93,12 @@
 			"Sprite23",
 			"Sprite24",
 			"Sprite25",
-			"Sprite26"
+			"Sprite26",
+			"solidMap_tile_",
+			"Sprite15",
+			"solidSprite27",
+			"Sprite27",
+			"Sprite28"
 		],
 		"subfolders": []
 	},

@@ -1,5 +1,92 @@
 {
 	"name": "Game",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Sprite8",
+					"sid": 734515341150507
+				}
+			],
+			"actions": [
+				{
+					"id": "find-path",
+					"objectClass": "Sprite8",
+					"sid": 197620187144518,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Sprite20.BBoxMidX",
+						"y": "Sprite20.BBoxMidY"
+					}
+				}
+			],
+			"sid": 888750806200952
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "Sprite8",
+					"sid": 309783793720530,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "Sprite8",
+					"sid": 356651619075017,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 400335820997249
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "Sprite6",
+					"sid": 225296214588301
+				}
+			],
+			"actions": [
+				{
+					"id": "find-path",
+					"objectClass": "Sprite6",
+					"sid": 759323264313625,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Sprite20.BBoxMidX",
+						"y": "Sprite20.BBoxMidY"
+					}
+				}
+			],
+			"sid": 551233260595850
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "Sprite6",
+					"sid": 765377243041032,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "Sprite6",
+					"sid": 922634969033897,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 410506626566845
+		}
+	],
 	"sid": 474699160120556
 }

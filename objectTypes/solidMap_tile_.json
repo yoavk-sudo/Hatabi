@@ -1,14 +1,14 @@
 {
-	"name": "Sprite15",
+	"name": "solidMap_tile_",
 	"plugin-id": "Sprite",
-	"sid": 954081922800224,
+	"sid": 773996397725351,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 469920630530095
+			"sid": 851887403527543
 		}
 	],
 	"effectTypes": [],
@@ -24,33 +24,25 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2912646,
+						"imageSpriteId": 4456928,
 						"collisionPoly": {
 							"points": [
 								0.029411764705882353,
 								0.029411764705882353,
-								0.5,
-								0.029411764705882353,
 								0.9705882352941176,
 								0.029411764705882353,
 								0.9705882352941176,
-								0.5,
-								0.9705882352941176,
-								0.9705882352941176,
-								0.5,
 								0.9705882352941176,
 								0.029411764705882353,
-								0.9705882352941176,
-								0.029411764705882353,
-								0.5
+								0.9705882352941176
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 875604306577260,
-				"name": "Animation 1",
+				"sid": 379049235375817,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
