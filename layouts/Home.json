@@ -393,7 +393,7 @@
 					"type": "HomeCredits",
 					"properties": {
 						"type": "button",
-						"text": "OK",
+						"text": "Credits",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
