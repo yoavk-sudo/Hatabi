@@ -6,14 +6,14 @@
 			"conditions": [
 				{
 					"id": "on-created",
-					"objectClass": "Sprite8",
+					"objectClass": "walkMice1",
 					"sid": 734515341150507
 				}
 			],
 			"actions": [
 				{
 					"id": "find-path",
-					"objectClass": "Sprite8",
+					"objectClass": "walkMice1",
 					"sid": 197620187144518,
 					"behaviorType": "Pathfinding",
 					"parameters": {
@@ -29,7 +29,7 @@
 			"conditions": [
 				{
 					"id": "on-path-found",
-					"objectClass": "Sprite8",
+					"objectClass": "walkMice1",
 					"sid": 309783793720530,
 					"behaviorType": "Pathfinding"
 				}
@@ -37,7 +37,7 @@
 			"actions": [
 				{
 					"id": "move-along-path",
-					"objectClass": "Sprite8",
+					"objectClass": "walkMice1",
 					"sid": 356651619075017,
 					"behaviorType": "Pathfinding"
 				}
@@ -49,14 +49,14 @@
 			"conditions": [
 				{
 					"id": "on-created",
-					"objectClass": "Sprite6",
+					"objectClass": "walkMice2",
 					"sid": 225296214588301
 				}
 			],
 			"actions": [
 				{
 					"id": "find-path",
-					"objectClass": "Sprite6",
+					"objectClass": "walkMice2",
 					"sid": 759323264313625,
 					"behaviorType": "Pathfinding",
 					"parameters": {
@@ -72,7 +72,7 @@
 			"conditions": [
 				{
 					"id": "on-path-found",
-					"objectClass": "Sprite6",
+					"objectClass": "walkMice2",
 					"sid": 765377243041032,
 					"behaviorType": "Pathfinding"
 				}
@@ -80,12 +80,98 @@
 			"actions": [
 				{
 					"id": "move-along-path",
-					"objectClass": "Sprite6",
+					"objectClass": "walkMice2",
 					"sid": 922634969033897,
 					"behaviorType": "Pathfinding"
 				}
 			],
 			"sid": 410506626566845
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "walkMice3",
+					"sid": 474507528877828
+				}
+			],
+			"actions": [
+				{
+					"id": "find-path",
+					"objectClass": "walkMice3",
+					"sid": 271775975834345,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Sprite20.BBoxMidX",
+						"y": "Sprite20.BBoxMidY"
+					}
+				}
+			],
+			"sid": 313178267187510
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice3",
+					"sid": 574872986145011,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice3",
+					"sid": 412697655045069,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 503536798895623
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-created",
+					"objectClass": "walkMice4",
+					"sid": 917192260200544
+				}
+			],
+			"actions": [
+				{
+					"id": "find-path",
+					"objectClass": "walkMice4",
+					"sid": 633484897009222,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "Sprite20.BBoxMidX",
+						"y": "Sprite20.BBoxMidY"
+					}
+				}
+			],
+			"sid": 684884386072513
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice4",
+					"sid": 901019537017732,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice4",
+					"sid": 393676731881417,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 647077662389522
 		}
 	],
 	"sid": 474699160120556

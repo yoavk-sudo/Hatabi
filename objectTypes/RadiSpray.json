@@ -1,14 +1,14 @@
 {
-	"name": "Sprite13",
+	"name": "RadiSpray",
 	"plugin-id": "Sprite",
-	"sid": 515445880738079,
+	"sid": 367888440399200,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "DragnDrop",
 			"name": "DragDrop",
-			"sid": 936027643783416
+			"sid": 165319412710042
 		}
 	],
 	"effectTypes": [],
@@ -17,31 +17,33 @@
 			{
 				"frames": [
 					{
-						"width": 169,
-						"height": 498,
-						"originX": 1.331360946745562,
-						"originY": 0.4146586345381526,
+						"width": 253,
+						"height": 513,
+						"originX": 0.19367588932806323,
+						"originY": 0.4405458089668616,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5008402,
+						"imageSpriteId": 3382098,
 						"collisionPoly": {
 							"points": [
-								0.11834319526627218,
-								0.5823293172690763,
-								0.8816568047337278,
-								0.4146586345381526,
-								0.07100591715976332,
-								0.26305220883534136,
-								0.11834319526627218,
-								0.4146586345381526
+								0.19367588932806323,
+								0.09161793372319688,
+								0.9486166007905138,
+								0.8869395711500975,
+								0.9486166007905138,
+								0.4405458089668616,
+								0.19367588932806323,
+								0.9961013645224172,
+								0.05533596837944664,
+								0.4405458089668616
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 570228979303702,
+				"sid": 827741639767324,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

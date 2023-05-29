@@ -1,19 +1,14 @@
 {
-	"name": "Sprite8",
+	"name": "walkMice2",
 	"plugin-id": "Sprite",
-	"sid": 156750264078425,
+	"sid": 955576732215386,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Pathfinding",
 			"name": "Pathfinding",
-			"sid": 975954566755240
-		},
-		{
-			"behaviorId": "MoveTo",
-			"name": "MoveTo",
-			"sid": 104843796213615
+			"sid": 511924553842101
 		}
 	],
 	"effectTypes": [],
@@ -22,39 +17,39 @@
 			{
 				"frames": [
 					{
-						"width": 802,
-						"height": 599,
+						"width": 1831,
+						"height": 1368,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2184347,
+						"imageSpriteId": 1403547,
 						"collisionPoly": {
 							"points": [
-								0.726932668329177,
+								0.3058438012015292,
+								0.4093567251461988,
 								0.5,
-								0.726932668329177,
-								0.6343906510851419,
+								0.16301169590643275,
+								0.6663025669033316,
+								0.4466374269005848,
+								0.7056253413435282,
 								0.5,
-								0.9232053422370617,
-								0.3254364089775561,
-								0.5642737896494157,
-								0.3703241895261845,
+								0.758601856908793,
+								0.6769005847953217,
 								0.5,
-								0.3703241895261845,
-								0.4958263772954925,
-								0.5,
-								0.20701168614357263,
-								0.7718204488778055,
-								0.3055091819699499
+								0.875,
+								0.2534134352812671,
+								0.6608187134502924,
+								0.2528672856362643,
+								0.5
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 225141691758063,
+				"sid": 946394776483262,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

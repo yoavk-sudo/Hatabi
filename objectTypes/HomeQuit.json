@@ -1,7 +1,7 @@
 {
-	"name": "PauseButton",
+	"name": "HomeQuit",
 	"plugin-id": "Button",
-	"sid": 183385721016644,
+	"sid": 637869930816820,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": []

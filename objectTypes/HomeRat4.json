@@ -1,0 +1,57 @@
+{
+	"name": "HomeRat4",
+	"plugin-id": "Sprite",
+	"sid": 936477754020247,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 539,
+						"height": 468,
+						"originX": 0.5918367346938775,
+						"originY": 0.45405982905982906,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8643855,
+						"collisionPoly": {
+							"points": [
+								0.9294990723562153,
+								0.45405982905982906,
+								0.9294990723562153,
+								0.6260683760683761,
+								0.5918367346938775,
+								0.9957264957264957,
+								0.3320964749536178,
+								0.5363247863247863,
+								0.398886827458256,
+								0.45405982905982906,
+								0.398886827458256,
+								0.44871794871794873,
+								0.5918367346938775,
+								0.07905982905982906,
+								0.9962894248608535,
+								0.20512820512820512
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 178033351639251,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,7 +1,7 @@
 {
-	"name": "OPTIONS",
+	"name": "GamePauseButton",
 	"plugin-id": "Button",
-	"sid": 967851711508515,
+	"sid": 183385721016644,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": []

@@ -1,0 +1,68 @@
+{
+	"name": "walkMice1",
+	"plugin-id": "Sprite",
+	"sid": 156750264078425,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 975954566755240
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 104843796213615
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 802,
+						"height": 599,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2184347,
+						"collisionPoly": {
+							"points": [
+								0.726932668329177,
+								0.5,
+								0.726932668329177,
+								0.6343906510851419,
+								0.5,
+								0.9232053422370617,
+								0.3254364089775561,
+								0.5642737896494157,
+								0.3703241895261845,
+								0.5,
+								0.3703241895261845,
+								0.4958263772954925,
+								0.5,
+								0.20701168614357263,
+								0.7718204488778055,
+								0.3055091819699499
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 225141691758063,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

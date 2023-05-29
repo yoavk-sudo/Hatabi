@@ -1,0 +1,63 @@
+{
+	"name": "CheeseTrap",
+	"plugin-id": "Sprite",
+	"sid": 287573433467547,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 549579203264700
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 311,
+						"height": 201,
+						"originX": 0.47266881028938906,
+						"originY": 0.5248756218905473,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4622339,
+						"collisionPoly": {
+							"points": [
+								0.10932475884244373,
+								0.46766169154228854,
+								0.47266881028938906,
+								0.14427860696517414,
+								0.9485530546623794,
+								0.2935323383084577,
+								0.909967845659164,
+								0.5248756218905473,
+								0.842443729903537,
+								0.5920398009950248,
+								0.47266881028938906,
+								0.9154228855721394,
+								0.03215434083601286,
+								0.7014925373134329,
+								0.05144694533762058,
+								0.5248756218905473
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 331232462219145,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

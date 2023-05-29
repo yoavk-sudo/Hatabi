@@ -1,0 +1,57 @@
+{
+	"name": "HomeMan",
+	"plugin-id": "Sprite",
+	"sid": 214176455866323,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 222,
+						"height": 755,
+						"originX": 0.35585585585585583,
+						"originY": 0.4695364238410596,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 569384,
+						"collisionPoly": {
+							"points": [
+								0.9909909909909915,
+								0.4695364238410596,
+								0.9909909909909915,
+								0.6688741721854304,
+								0.35585585585585583,
+								0.9708609271523179,
+								0.18918918918918945,
+								0.5311258278145694,
+								0.18918918918918945,
+								0.4695364238410596,
+								0.18918918918918945,
+								0.40794701986754967,
+								0.35585585585585583,
+								0.0026490066225165563,
+								0.8153153153153153,
+								0.3218543046357616
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 216191801819227,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
