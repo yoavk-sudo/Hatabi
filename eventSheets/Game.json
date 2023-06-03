@@ -14,11 +14,11 @@
 				{
 					"id": "find-path",
 					"objectClass": "walkMice1",
-					"sid": 197620187144518,
+					"sid": 898104413359454,
 					"behaviorType": "Pathfinding",
 					"parameters": {
-						"x": "Sprite20.BBoxMidX",
-						"y": "Sprite20.BBoxMidY"
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
 					}
 				}
 			],
@@ -57,11 +57,11 @@
 				{
 					"id": "find-path",
 					"objectClass": "walkMice2",
-					"sid": 759323264313625,
+					"sid": 681890228935481,
 					"behaviorType": "Pathfinding",
 					"parameters": {
-						"x": "Sprite20.BBoxMidX",
-						"y": "Sprite20.BBoxMidY"
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
 					}
 				}
 			],
@@ -100,11 +100,11 @@
 				{
 					"id": "find-path",
 					"objectClass": "walkMice3",
-					"sid": 271775975834345,
+					"sid": 612986516010044,
 					"behaviorType": "Pathfinding",
 					"parameters": {
-						"x": "Sprite20.BBoxMidX",
-						"y": "Sprite20.BBoxMidY"
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
 					}
 				}
 			],
@@ -143,11 +143,11 @@
 				{
 					"id": "find-path",
 					"objectClass": "walkMice4",
-					"sid": 633484897009222,
+					"sid": 923871001250091,
 					"behaviorType": "Pathfinding",
 					"parameters": {
-						"x": "Sprite20.BBoxMidX",
-						"y": "Sprite20.BBoxMidY"
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
 					}
 				}
 			],
@@ -172,6 +172,25 @@
 				}
 			],
 			"sid": 647077662389522
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 629563541475130
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "ClawTrap",
+					"sid": 771781231862150,
+					"behaviorType": "DragDrop"
+				}
+			],
+			"actions": [],
+			"sid": 658467620154353
 		}
 	],
 	"sid": 474699160120556
