@@ -48,6 +48,28 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-arrived",
+					"objectClass": "walkMice1",
+					"sid": 667796848146535,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "walkMice1",
+					"sid": 595828315479751,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 835333835960682
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-created",
 					"objectClass": "walkMice2",
 					"sid": 225296214588301
@@ -86,6 +108,28 @@
 				}
 			],
 			"sid": 410506626566845
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-arrived",
+					"objectClass": "walkMice2",
+					"sid": 562204380516787,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "walkMice2",
+					"sid": 902878587083480,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 619410471778772
 		},
 		{
 			"eventType": "block",
@@ -134,6 +178,28 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-arrived",
+					"objectClass": "walkMice3",
+					"sid": 429836249524291,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "walkMice3",
+					"sid": 666064349791741,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 174282299484813
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-created",
 					"objectClass": "walkMice4",
 					"sid": 917192260200544
@@ -175,22 +241,25 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
-			"sid": 629563541475130
-		},
-		{
-			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-dragging",
-					"objectClass": "ClawTrap",
-					"sid": 771781231862150,
-					"behaviorType": "DragDrop"
+					"id": "on-arrived",
+					"objectClass": "walkMice4",
+					"sid": 169578790480799,
+					"behaviorType": "Pathfinding"
 				}
 			],
-			"actions": [],
-			"sid": 658467620154353
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "walkMice4",
+					"sid": 249358448321716,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 595360929212956
 		}
 	],
 	"sid": 474699160120556
