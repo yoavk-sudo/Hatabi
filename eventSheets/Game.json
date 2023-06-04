@@ -62,6 +62,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "GamePathTile",
+					"sid": 900432590022225,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 835333835960682
@@ -124,6 +132,14 @@
 					"id": "set-visible",
 					"objectClass": "walkMice2",
 					"sid": 902878587083480,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "GamePathTile",
+					"sid": 484035852791230,
 					"parameters": {
 						"visibility": "invisible"
 					}
@@ -192,6 +208,14 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "GamePathTile",
+					"sid": 147860135887988,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 174282299484813
@@ -254,6 +278,14 @@
 					"id": "set-visible",
 					"objectClass": "walkMice4",
 					"sid": 249358448321716,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "GamePathTile",
+					"sid": 118702469711707,
 					"parameters": {
 						"visibility": "invisible"
 					}
