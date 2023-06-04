@@ -30,7 +30,7 @@
 				{
 					"id": "on-path-found",
 					"objectClass": "walkMice1",
-					"sid": 309783793720530,
+					"sid": 875507049056760,
 					"behaviorType": "Pathfinding"
 				}
 			],
@@ -38,11 +38,11 @@
 				{
 					"id": "move-along-path",
 					"objectClass": "walkMice1",
-					"sid": 356651619075017,
+					"sid": 515740348340084,
 					"behaviorType": "Pathfinding"
 				}
 			],
-			"sid": 400335820997249
+			"sid": 621101511820594
 		},
 		{
 			"eventType": "block",
@@ -260,6 +260,217 @@
 				}
 			],
 			"sid": 595360929212956
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ClawTrap",
+					"sid": 390268506798886,
+					"parameters": {
+						"object": "walkMice1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ClawTrap",
+					"sid": 169433582429276
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice1",
+					"sid": 648693690464494
+				}
+			],
+			"sid": 255913157800243
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ClawTrap",
+					"sid": 298812740569299,
+					"parameters": {
+						"object": "walkMice2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ClawTrap",
+					"sid": 760522225368840
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "walkMice2",
+					"sid": 713258352477683,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				}
+			],
+			"sid": 500238614541193
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ClawTrap",
+					"sid": 493069683746585,
+					"parameters": {
+						"object": "walkMice3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ClawTrap",
+					"sid": 999293567298805
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice3",
+					"sid": 354912912461778
+				}
+			],
+			"sid": 147179631276585
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "ClawTrap",
+					"sid": 893365421854676,
+					"parameters": {
+						"object": "walkMice4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "ClawTrap",
+					"sid": 544733405693494
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice4",
+					"sid": 218650488271807
+				}
+			],
+			"sid": 339548571271976
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CheeseTrap",
+					"sid": 247842123867615,
+					"parameters": {
+						"object": "walkMice1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "CheeseTrap",
+					"sid": 732500425769255
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice1",
+					"sid": 708747302798869
+				}
+			],
+			"sid": 552426952534599
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CheeseTrap",
+					"sid": 369838992335003,
+					"parameters": {
+						"object": "walkMice2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "CheeseTrap",
+					"sid": 481979049232756
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice2",
+					"sid": 493337824546125
+				}
+			],
+			"sid": 594196657020596
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CheeseTrap",
+					"sid": 556542703575650,
+					"parameters": {
+						"object": "walkMice3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "CheeseTrap",
+					"sid": 212503262219331
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice3",
+					"sid": 158491486545967
+				}
+			],
+			"sid": 910880571989163
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CheeseTrap",
+					"sid": 129666227485149,
+					"parameters": {
+						"object": "walkMice4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "CheeseTrap",
+					"sid": 663982560904482
+				},
+				{
+					"id": "destroy",
+					"objectClass": "walkMice4",
+					"sid": 544051767264402
+				}
+			],
+			"sid": 508224871552567
 		}
 	],
 	"sid": 474699160120556
