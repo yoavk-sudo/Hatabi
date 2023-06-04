@@ -1,7 +1,7 @@
 {
-	"name": "Sprite19",
+	"name": "GamePathTile2",
 	"plugin-id": "Sprite",
-	"sid": 338319237126476,
+	"sid": 111337120135680,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,39 +11,19 @@
 			{
 				"frames": [
 					{
-						"width": 32,
-						"height": 32,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9351038,
-						"collisionPoly": {
-							"points": [
-								1,
-								0,
-								1,
-								0.5,
-								1,
-								1,
-								0.5,
-								1,
-								0,
-								1,
-								0,
-								0.5,
-								0,
-								0,
-								0.5,
-								0
-							]
-						},
+						"imageSpriteId": 8482472,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 901742817440801,
+				"sid": 785135348435487,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

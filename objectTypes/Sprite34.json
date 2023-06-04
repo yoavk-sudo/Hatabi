@@ -1,10 +1,16 @@
 {
-	"name": "Sprite19",
+	"name": "Sprite34",
 	"plugin-id": "Sprite",
-	"sid": 338319237126476,
+	"sid": 138685894919891,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 398768944579895
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,24 +24,16 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9351038,
+						"imageSpriteId": 1985571,
 						"collisionPoly": {
 							"points": [
 								1,
-								0,
-								1,
-								0.5,
-								1,
-								1,
-								0.5,
 								1,
 								0,
 								1,
 								0,
-								0.5,
 								0,
-								0,
-								0.5,
+								1,
 								0
 							]
 						},
@@ -43,7 +41,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 901742817440801,
+				"sid": 899753280052732,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

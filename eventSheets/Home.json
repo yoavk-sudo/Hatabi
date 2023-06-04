@@ -1,5 +1,48 @@
 {
 	"name": "Home",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "HomeStart",
+					"sid": 982817887983039
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 263057470767890,
+					"parameters": {
+						"layout": "\"Game\""
+					}
+				}
+			],
+			"sid": 322092186280446
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "HomeOptions",
+					"sid": 861235476786211
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 856487690063717,
+					"parameters": {
+						"layout": "\"Options\""
+					}
+				}
+			],
+			"sid": 198528524326664
+		}
+	],
 	"sid": 904294321016562
 }

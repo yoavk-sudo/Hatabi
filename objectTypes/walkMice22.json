@@ -1,49 +1,55 @@
 {
-	"name": "Sprite19",
+	"name": "walkMice22",
 	"plugin-id": "Sprite",
-	"sid": 338319237126476,
+	"sid": 464223825497692,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 906869600757209
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 32,
-						"height": 32,
+						"width": 1831,
+						"height": 1368,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9351038,
+						"imageSpriteId": 3619509,
 						"collisionPoly": {
 							"points": [
-								1,
-								0,
-								1,
+								0.3058438012015292,
+								0.4093567251461988,
 								0.5,
-								1,
-								1,
+								0.16301169590643275,
+								0.6663025669033316,
+								0.4466374269005848,
+								0.7056253413435282,
 								0.5,
-								1,
-								0,
-								1,
-								0,
+								0.758601856908793,
+								0.6769005847953217,
 								0.5,
-								0,
-								0,
-								0.5,
-								0
+								0.875,
+								0.2534134352812671,
+								0.6608187134502924,
+								0.2528672856362643,
+								0.5
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 901742817440801,
+				"sid": 457209650504236,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

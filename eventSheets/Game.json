@@ -20,6 +20,36 @@
 						"x": "GamePathTile.BBoxMidX",
 						"y": "GamePathTile.BBoxMidY"
 					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice2",
+					"sid": 257364538555924,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice3",
+					"sid": 838307109733702,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice4",
+					"sid": 263188972519846,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile.BBoxMidX",
+						"y": "GamePathTile.BBoxMidY"
+					}
 				}
 			],
 			"sid": 888750806200952
@@ -43,6 +73,66 @@
 				}
 			],
 			"sid": 621101511820594
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice2",
+					"sid": 531446837683313,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice2",
+					"sid": 790626225978034,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 342451663699288
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice3",
+					"sid": 481873524464076,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice3",
+					"sid": 724872100791125,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 839024792235026
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice4",
+					"sid": 473910022481263,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice4",
+					"sid": 516495360519606,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 874438040233816
 		},
 		{
 			"eventType": "block",
@@ -78,49 +168,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-created",
-					"objectClass": "walkMice2",
-					"sid": 225296214588301
-				}
-			],
-			"actions": [
-				{
-					"id": "find-path",
-					"objectClass": "walkMice2",
-					"sid": 681890228935481,
-					"behaviorType": "Pathfinding",
-					"parameters": {
-						"x": "GamePathTile.BBoxMidX",
-						"y": "GamePathTile.BBoxMidY"
-					}
-				}
-			],
-			"sid": 551233260595850
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-path-found",
-					"objectClass": "walkMice2",
-					"sid": 765377243041032,
-					"behaviorType": "Pathfinding"
-				}
-			],
-			"actions": [
-				{
-					"id": "move-along-path",
-					"objectClass": "walkMice2",
-					"sid": 922634969033897,
-					"behaviorType": "Pathfinding"
-				}
-			],
-			"sid": 410506626566845
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-arrived",
 					"objectClass": "walkMice2",
 					"sid": 562204380516787,
@@ -151,49 +198,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-created",
-					"objectClass": "walkMice3",
-					"sid": 474507528877828
-				}
-			],
-			"actions": [
-				{
-					"id": "find-path",
-					"objectClass": "walkMice3",
-					"sid": 612986516010044,
-					"behaviorType": "Pathfinding",
-					"parameters": {
-						"x": "GamePathTile.BBoxMidX",
-						"y": "GamePathTile.BBoxMidY"
-					}
-				}
-			],
-			"sid": 313178267187510
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-path-found",
-					"objectClass": "walkMice3",
-					"sid": 574872986145011,
-					"behaviorType": "Pathfinding"
-				}
-			],
-			"actions": [
-				{
-					"id": "move-along-path",
-					"objectClass": "walkMice3",
-					"sid": 412697655045069,
-					"behaviorType": "Pathfinding"
-				}
-			],
-			"sid": 503536798895623
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-arrived",
 					"objectClass": "walkMice3",
 					"sid": 429836249524291,
@@ -219,49 +223,6 @@
 				}
 			],
 			"sid": 174282299484813
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-created",
-					"objectClass": "walkMice4",
-					"sid": 917192260200544
-				}
-			],
-			"actions": [
-				{
-					"id": "find-path",
-					"objectClass": "walkMice4",
-					"sid": 923871001250091,
-					"behaviorType": "Pathfinding",
-					"parameters": {
-						"x": "GamePathTile.BBoxMidX",
-						"y": "GamePathTile.BBoxMidY"
-					}
-				}
-			],
-			"sid": 684884386072513
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-path-found",
-					"objectClass": "walkMice4",
-					"sid": 901019537017732,
-					"behaviorType": "Pathfinding"
-				}
-			],
-			"actions": [
-				{
-					"id": "move-along-path",
-					"objectClass": "walkMice4",
-					"sid": 393676731881417,
-					"behaviorType": "Pathfinding"
-				}
-			],
-			"sid": 647077662389522
 		},
 		{
 			"eventType": "block",
@@ -503,6 +464,147 @@
 				}
 			],
 			"sid": 508224871552567
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "GameNextButton",
+					"sid": 183784438656393
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-x",
+					"objectClass": "System",
+					"sid": 634539480671803,
+					"parameters": {
+						"x": "2976.5"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice11",
+					"sid": 615786928684357,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile2.BBoxMidX",
+						"y": "GamePathTile2.BBoxMidY"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice22",
+					"sid": 627590731785813,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile2.BBoxMidX",
+						"y": "GamePathTile2.BBoxMidY"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice33",
+					"sid": 421453250923431,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile2.BBoxMidX",
+						"y": "GamePathTile2.BBoxMidY"
+					}
+				},
+				{
+					"id": "find-path",
+					"objectClass": "walkMice44",
+					"sid": 467718281611880,
+					"behaviorType": "Pathfinding",
+					"parameters": {
+						"x": "GamePathTile2.BBoxMidX",
+						"y": "GamePathTile2.BBoxMidY"
+					}
+				}
+			],
+			"sid": 688870321565332
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice11",
+					"sid": 730108701045613,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice11",
+					"sid": 373728414991419,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 926775786309820
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice22",
+					"sid": 140638135709300,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice22",
+					"sid": 135030433298307,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 628694534509963
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice33",
+					"sid": 371526139265399,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice33",
+					"sid": 151729309244510,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 742609534727712
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-path-found",
+					"objectClass": "walkMice44",
+					"sid": 144322740965168,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"actions": [
+				{
+					"id": "move-along-path",
+					"objectClass": "walkMice44",
+					"sid": 136183433783402,
+					"behaviorType": "Pathfinding"
+				}
+			],
+			"sid": 731228688923338
 		}
 	],
 	"sid": 474699160120556

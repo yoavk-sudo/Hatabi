@@ -1,10 +1,16 @@
 {
-	"name": "Sprite19",
+	"name": "GameSolidTile2",
 	"plugin-id": "Sprite",
-	"sid": 338319237126476,
+	"sid": 827232602821409,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 854353846989167
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,32 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9351038,
-						"collisionPoly": {
-							"points": [
-								1,
-								0,
-								1,
-								0.5,
-								1,
-								1,
-								0.5,
-								1,
-								0,
-								1,
-								0,
-								0.5,
-								0,
-								0,
-								0.5,
-								0
-							]
-						},
+						"imageSpriteId": 8522234,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 901742817440801,
+				"sid": 414040262552072,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
