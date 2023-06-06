@@ -1,5 +1,27 @@
 {
 	"name": "Options",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "OptionsBack1",
+					"sid": 726552848116107
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 954181900517614,
+					"parameters": {
+						"layout": "\"Home\""
+					}
+				}
+			],
+			"sid": 488871250363625
+		}
+	],
 	"sid": 821924217854770
 }

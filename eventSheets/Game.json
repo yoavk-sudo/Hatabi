@@ -155,10 +155,10 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "GamePathTile",
-					"sid": 900432590022225,
+					"objectClass": "GameNextButton",
+					"sid": 991660643531389,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				}
 			],
@@ -185,10 +185,10 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "GamePathTile",
-					"sid": 484035852791230,
+					"objectClass": "GameNextButton",
+					"sid": 467004642710966,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				}
 			],
@@ -215,10 +215,10 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "GamePathTile",
-					"sid": 147860135887988,
+					"objectClass": "GameNextButton",
+					"sid": 693488089867305,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				}
 			],
@@ -245,10 +245,10 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "GamePathTile",
-					"sid": 118702469711707,
+					"objectClass": "GameNextButton",
+					"sid": 658565460510078,
 					"parameters": {
-						"visibility": "invisible"
+						"visibility": "visible"
 					}
 				}
 			],

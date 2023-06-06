@@ -141,7 +141,7 @@
 					}
 				},
 				{
-					"type": "OptionsBack",
+					"type": "OptionsBack1",
 					"properties": {
 						"type": "button",
 						"text": "Back",

@@ -3064,7 +3064,7 @@
 						"type": "button",
 						"text": "next",
 						"tooltip": "",
-						"initially-visible": true,
+						"initially-visible": false,
 						"enabled": true,
 						"auto-font-size": false,
 						"checked": false,

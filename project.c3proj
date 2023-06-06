@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 34400,
+	"savedWithRelease": 34402,
 	"name": "exterminator",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -116,7 +116,7 @@
 			"OptionsText",
 			"OptionsSound",
 			"OptionsMusic",
-			"OptionsBack",
+			"OptionsBack1",
 			"Sprite5",
 			"GameInventoryBar",
 			"GamePathTile",
